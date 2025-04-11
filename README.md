@@ -12,13 +12,13 @@ A Python-based application to manage financial transactions effectively.
 6. **Display transactions Summary** : Shows total transactions and transaction categories.
 7. **Add Bulk transactions** : Import from a text file (`format: transaction,Amount,Date`).
 
-### GUI Features
+### 💻 GUI Features
 
 - __Table View__: Displays all transactions from `transactions.json`.
 - __Search__: Enter keywords in the search bar.
 - __Sort__: Click column headers (Category/Amount/Date).
 - 
-### Bulk Transaction Text File Format
+### 📄 Bulk Transaction Text File Format
 
 ```
 salary    140000   2024-04-10
@@ -26,7 +26,7 @@ petrol    3000     2024-04-13
 ```
 _Ensure spaces separate fields and each transaction is on a new line._
 
-### Design Choices
+### 🛠️ Design Choices
 
 - __Tkinter__: Standard Python GUI toolkit.
 - __JSON Storage__: Lightweight and easy to manipulate.
