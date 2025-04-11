@@ -191,7 +191,11 @@ def main_menu():
         print("6. Summary of transactions")
         print("7. Read Bulk Transactions from File")
         print("8. Exit")
-        choice = int(input("Enter your choice: "))
+        try:
+            choice = int(input("Enter your choice: "))
+        except ValueError:
+            print("Invalid input. Please enter a number 1 to 8.")
+            continue
 
         if choice == 1:
             add_transactions()
